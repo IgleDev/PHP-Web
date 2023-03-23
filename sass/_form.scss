@@ -1,0 +1,45 @@
+$colorGlobal: blue;
+$letraGlobal: arial;
+$colorLabel: black;
+$tamanhoFuente: 24px;
+
+h1{
+    color: $colorGlobal;
+    text-align: center;
+    font-family: $letraGlobal;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin-left: 40%;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    div{
+        margin: 0%;
+        label{
+            text-align: left;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: $tamanhoFuente;
+        }
+        input{
+            padding-right: 15%;
+            padding: 3%;
+            padding-right: 10%;
+        }
+    }
+    button{
+        margin: 5%;
+        margin-left: 15%;
+        font-size: 18px;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: aquamarine;
+    }
+}

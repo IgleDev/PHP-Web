@@ -1,0 +1,45 @@
+$fontGlobal: Arial;
+.container-among{
+    margin-top: 10%;
+    display: grid;
+    place-content: center;
+    font-family: $fontGlobal;
+    .container-detalles{
+        background-color: white;
+        width: 40vh;
+        border-radius: 5%;
+        .container-foto{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            margin-top: 5%;
+            img{
+                border-radius: 5%;
+                width: 80%;
+                display: block;
+            }
+        }
+
+        .desc{
+            text-align: center;
+            span{
+                font-weight: bold;
+            }
+        }
+
+        .probab{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            p{
+                background-color: rgb(136, 11, 11);
+                color: white;
+                width: 20%;
+                border-radius: 5%;
+            }
+        }
+    }
+}
